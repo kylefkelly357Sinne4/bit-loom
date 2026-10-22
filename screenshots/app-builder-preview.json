@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Bitloom",
+      "hasCanvas": true,
+      "bodyTextLen": 187,
+      "bodyTextHash": "45024a833d1115e352cb12b3469649218fd01793c1b015bf52f45142c89b20d5",
+      "bodyTextPrefix": "Bitloom Pixel studio 8 16 24 32 48 64 Export PNG Click and drag ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Bitloom",
+      "hasCanvas": true,
+      "bodyTextLen": 81,
+      "bodyTextHash": "69eb1dbdfea42d385472b759294d3f58e63dee58f0b9cc8bf971f1cc8db209a9",
+      "bodyTextPrefix": "Bitloom 8 16 24 32 48 64 Click and drag to draw 16 × 16 Paint #F",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
